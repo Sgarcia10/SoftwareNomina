@@ -9,7 +9,7 @@ package empresa;
  *
  * @author Santiago
  */
-public class SoftwareContable {
+public class SoftwareNomina {
 
     /**
      * @param args the command line arguments
