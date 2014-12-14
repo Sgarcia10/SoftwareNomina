@@ -9,6 +9,39 @@ package empresa.mundo;
  *
  * @author Santiago
  */
-public class Empleado {
+public class Empleado 
+{
+    private String nombres;
+    
+    private String apellidos;
+    
+    private int cedula;
+    
+    private String cargo;
+    
+    
+    public Empleado(String nombresP, String apellidosP, int cedulaP)
+    {
+        nombres=nombresP;
+        
+        apellidos=apellidosP;
+        
+        cedula=cedulaP;
+    } 
+    
+    public String darNombres()
+    {
+        return nombres;
+    }
+    
+    public String darApellidos()
+    {
+        return apellidos;
+    }
+    
+    public int darCedula()
+    {
+        return cedula;
+    }
     
 }
