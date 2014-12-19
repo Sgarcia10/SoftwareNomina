@@ -19,6 +19,8 @@ public class Empleado
     
     private String cargo;
     
+    private int salarioBasico;
+    
     
     public Empleado(String nombresP, String apellidosP, int cedulaP)
     {
