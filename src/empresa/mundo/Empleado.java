@@ -5,6 +5,8 @@
  */
 package empresa.mundo;
 
+import java.util.Date;
+
 /**
  *
  * @author Santiago
@@ -20,6 +22,14 @@ public class Empleado
     private String cargo;
     
     private int salarioBasico;
+    
+    private Date fechaNacimiento;
+    
+    private Date fechaIngresoEmpresa;
+    
+    private Date fechaRegistroSISS;
+    
+    private String rutaFoto;    
     
     
     public Empleado(String nombresP, String apellidosP, int cedulaP)

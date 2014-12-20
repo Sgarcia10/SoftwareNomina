@@ -22,5 +22,5 @@ public class DatosAnuales
     public final static int DiasAño = 360;
     
     public final static int HorasMes = 240;
-    
+        
 }
