@@ -17,5 +17,10 @@ public class DatosAnuales
     
     private int auxilioTransporte = 72000;
     
+    public final static int DiasMes = 30;
+    
+    public final static int DiasAño = 360;
+    
+    public final static int HorasMes = 240;
     
 }
