@@ -29,7 +29,9 @@ public class Empleado
     
     private Date fechaRegistroSISS;
     
-    private String rutaFoto;    
+    private String rutaFoto;
+    
+    private int valorHora;
     
     
     public Empleado(String nombresP, String apellidosP, int cedulaP)
